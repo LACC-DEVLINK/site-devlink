@@ -1,5 +1,6 @@
 import logoDevlink from '../assets/images/logo-devlink.jpeg'
 import { FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -10,9 +11,9 @@ function Footer() {
           <span className="logo-text">DEVLINK</span>
         </div>
         <nav className="footer-nav">
-          <a href="#home">Home</a>
+          <Link to="/">Home</Link>
           <a href="#projetos">Projetos</a>
-          <a href="#membros">Membros</a>
+          <Link to="/membros">Membros</Link>
           <a href="#contato">Contato</a>
         </nav>
         <div className="footer-socials">

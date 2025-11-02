@@ -1,4 +1,5 @@
 import '../App.css'
+import { Link } from 'react-router-dom'
 import mascoteDevlink from '../assets/images/mascote.png'
 import logo2Bis from '../assets/images/logo-2bis.jpeg'
 import { FaCog, FaFolder, FaCube, FaDatabase, FaGlobe, FaCode, FaBrain, FaPalette, FaMobileAlt } from 'react-icons/fa'
@@ -139,7 +140,9 @@ function Home() {
               </div>
             </div>
           </div>
-          <button className="btn-members">Ver todos os membros</button>
+          <Link to="/membros">
+            <button className="btn-members">Ver todos os membros</button>
+          </Link>
         </div>
       </section>
     </div>

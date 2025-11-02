@@ -369,8 +369,8 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin: 3rem 0;
-  max-width: 900px;
-  margin-left: auto;
+  max-width: 1200px;
+  margin-left: 0;
   margin-right: auto;
 }
 
@@ -452,6 +452,92 @@
 .btn-members:hover {
   transform: scale(1.05);
   box-shadow: 0 5px 20px rgba(0, 255, 148, 0.4);
+}
+
+/* Members Page */
+.members-page {
+  padding: 4rem 0;
+  background: #0E3054;
+  min-height: 100vh;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--accent-cyan);
+  text-decoration: none;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.back-button:hover {
+  color: var(--neon-green);
+  transform: translateX(-5px);
+}
+
+.page-title {
+  font-size: 3rem;
+  color: var(--accent-cyan);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.page-subtitle {
+  text-align: center;
+  color: var(--text-gray);
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+}
+
+.members-section {
+  margin-bottom: 5rem;
+}
+
+.members-section .section-title {
+  font-size: 2rem;
+  color: var(--accent-cyan);
+  margin-bottom: 2rem;
+  text-align: left;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.members-section .section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, var(--accent-cyan) 50%, transparent 100%);
+  box-shadow: 0 0 10px rgba(0, 217, 255, 0.5);
+}
+
+.members-page .member-socials .social-icon {
+  font-size: 1.2rem;
+  color: var(--neon-green);
+  transition: color 0.3s, transform 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.members-page .member-socials .social-icon:hover {
+  color: var(--accent-cyan);
+  transform: scale(1.2);
+}
+
+.team-grid-single {
+  display: flex;
+  justify-content: flex-start;
+  margin: 3rem 0;
+}
+
+.team-grid-single .team-member {
+  max-width: 300px;
 }
 
 /* Footer */
@@ -552,5 +638,13 @@
   .footer-nav {
     flex-direction: column;
     text-align: center;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
   }
 }
