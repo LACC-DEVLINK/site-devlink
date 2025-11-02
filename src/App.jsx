@@ -1,5 +1,6 @@
 import './App.css'
-import logoDevlink from '/logo-devlink.jpeg'
+import logoDevlink from './assets/logo-devlink.jpeg'
+import mascoteDevlink from './assets/mascote.png'
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
             </p>
           </div>
           <div className="hero-image">
-            <img src={logoDevlink} alt="DevLink Robot" className="robot-illustration-img" />
+            <img src={mascoteDevlink} alt="DevLink Robot Mascote" className="robot-illustration-img" />
           </div>
         </div>
       </section>
