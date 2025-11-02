@@ -103,30 +103,36 @@ function Home() {
           <h2 className="section-title">Nossa equipe</h2>
           <div className="team-grid">
             <div className="team-member">
-              <div className="member-photo">👤</div>
+              <div className="member-photo">
+                <img src="https://github.com/rafaelgoesti.png" alt="Rafael Góes" className="member-photo-img" />
+              </div>
               <h3 className="member-name">Rafael Góes</h3>
               <p className="member-role">Presidente</p>
               <div className="member-socials">
-                <a href="#" className="social-icon">GitHub</a>
-                <a href="#" className="social-icon">LinkedIn</a>
+                <a href="https://github.com/rafaelgoesti" target="_blank" rel="noopener noreferrer" className="social-icon">GitHub</a>
+                <a href="https://www.linkedin.com/in/rafael-g%C3%B3es-duarte-10709332a/" target="_blank" rel="noopener noreferrer" className="social-icon">LinkedIn</a>
               </div>
             </div>
             <div className="team-member">
-              <div className="member-photo">👤</div>
+              <div className="member-photo">
+                <img src="https://github.com/Luan-carvalho-b.png" alt="Luan Levi" className="member-photo-img" />
+              </div>
               <h3 className="member-name">Luan Levi</h3>
               <p className="member-role">Vice-Presidente</p>
               <div className="member-socials">
-                <a href="#" className="social-icon">GitHub</a>
-                <a href="#" className="social-icon">LinkedIn</a>
+                <a href="https://github.com/Luan-carvalho-b" target="_blank" rel="noopener noreferrer" className="social-icon">GitHub</a>
+                <a href="https://www.linkedin.com/in/luan-carvalho-496a72197/" target="_blank" rel="noopener noreferrer" className="social-icon">LinkedIn</a>
               </div>
             </div>
             <div className="team-member">
-              <div className="member-photo">👤</div>
+              <div className="member-photo">
+                <img src="https://github.com/AlbertoMJr0.png" alt="Alberto Monteiro" className="member-photo-img" />
+              </div>
               <h3 className="member-name">Alberto Monteiro</h3>
               <p className="member-role">Diretor Acadêmico</p>
               <div className="member-socials">
-                <a href="#" className="social-icon">GitHub</a>
-                <a href="#" className="social-icon">LinkedIn</a>
+                <a href="https://github.com/AlbertoMJr0" target="_blank" rel="noopener noreferrer" className="social-icon">GitHub</a>
+                <a href="https://www.linkedin.com/in/alberto-junior-4776ab2a5/" target="_blank" rel="noopener noreferrer" className="social-icon">LinkedIn</a>
               </div>
             </div>
           </div>
