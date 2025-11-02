@@ -484,6 +484,17 @@
   gap: 1.5rem;
 }
 
+.footer-socials .social-icon {
+  font-size: 1.5rem;
+  color: var(--neon-green);
+  transition: color 0.3s, transform 0.3s;
+}
+
+.footer-socials .social-icon:hover {
+  color: var(--accent-cyan);
+  transform: scale(1.2);
+}
+
 .footer-bottom {
   text-align: center;
   padding-top: 2rem;
