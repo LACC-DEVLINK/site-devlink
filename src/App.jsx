@@ -1,6 +1,7 @@
 import './App.css'
 import logoDevlink from './assets/logo-devlink.jpeg'
 import mascoteDevlink from './assets/mascote.png'
+import { FaCog, FaFolder, FaCube, FaDatabase, FaGlobe, FaCode, FaBrain, FaPalette, FaMobileAlt } from 'react-icons/fa'
 
 function App() {
   return (
@@ -33,6 +34,13 @@ function App() {
           </div>
           <div className="hero-image">
             <img src={mascoteDevlink} alt="DevLink Robot Mascote" className="robot-illustration-img" />
+            <div className="hero-icons">
+              <div className="hero-icon"><FaCog /></div>
+              <div className="hero-icon"><FaFolder /></div>
+              <div className="hero-icon"><FaCube /></div>
+              <div className="hero-icon"><FaDatabase /></div>
+              <div className="hero-icon"><FaGlobe /></div>
+            </div>
           </div>
         </div>
       </section>
@@ -45,6 +53,13 @@ function App() {
         </div>
       </section>
 
+      {/* Divider */}
+      <div className="section-divider">
+        <div className="container">
+          <div className="divider-line"></div>
+        </div>
+      </div>
+
       {/* O Que Fazemos & Parcerias */}
       <section className="what-we-do">
         <div className="container">
@@ -54,19 +69,19 @@ function App() {
             </div>
             <div className="cards-grid">
               <div className="card">
-                <div className="card-icon">💻</div>
+                <div className="card-icon"><FaCode /></div>
                 <h3>Desenvolvimento de Software</h3>
               </div>
               <div className="card">
-                <div className="card-icon">🤖</div>
+                <div className="card-icon"><FaBrain /></div>
                 <h3>Inteligência Artificial</h3>
               </div>
               <div className="card">
-                <div className="card-icon">🎨</div>
+                <div className="card-icon"><FaPalette /></div>
                 <h3>Design e UX/UI</h3>
               </div>
               <div className="card">
-                <div className="card-icon">📱</div>
+                <div className="card-icon"><FaMobileAlt /></div>
                 <h3>Aplicações mobile</h3>
               </div>
             </div>
@@ -92,6 +107,13 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* Divider */}
+      <div className="section-divider">
+        <div className="container">
+          <div className="divider-line"></div>
+        </div>
+      </div>
 
       {/* Nossa Equipe */}
       <section className="team">
