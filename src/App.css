@@ -356,12 +356,25 @@
 .team-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  gap: 2rem;
   margin: 3rem 0;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-member {
   text-align: center;
+  background: rgba(0, 35, 63, 0.3);
+  border: 2px solid #00233F;
+  border-radius: 15px;
+  padding: 1.5rem 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 35, 63, 0.5);
 }
 
 .member-photo {
