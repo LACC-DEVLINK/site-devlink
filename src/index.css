@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-blue: #0A2647;
+  --secondary-blue: #144272;
+  --accent-cyan: #00D9FF;
+  --neon-green: #00FF94;
+  --text-white: #FFFFFF;
+  --text-gray: #B0B0B0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(180deg, #0A2647 0%, #144272 100%);
+  color: var(--text-white);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+}
+
