@@ -1,5 +1,6 @@
 import '../App.css'
 import mascoteDevlink from '../assets/images/mascote.png'
+import logo2Bis from '../assets/images/logo-2bis.jpeg'
 import { FaCog, FaFolder, FaCube, FaDatabase, FaGlobe, FaCode, FaBrain, FaPalette, FaMobileAlt } from 'react-icons/fa'
 
 function Home() {
@@ -73,10 +74,12 @@ function Home() {
             <div className="partnerships-content">
               <h2 className="section-title">Parcerias</h2>
               <div className="partnership-item">
-                <div className="partnership-icon">🎖️</div>
+                <div className="partnership-icon">
+                  <img src={logo2Bis} alt="Logo 2º BIS" className="partnership-logo" />
+                </div>
                 <div className="partnership-text">
-                  <h3>Parceria estratégica com o Exército Brasileiro</h3>
-                  <p>Desenvolvimento do sistema Check-in.</p>
+                  <h3>Segundo Batalhão de Infantaria de Selva (2º BIS)</h3>
+                  <p>Desenvolvemos um software completo para gerenciamento de militares, incluindo módulo próprio de check-in.</p>
                 </div>
               </div>
               <div className="partnership-placeholder">
