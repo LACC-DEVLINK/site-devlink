@@ -41,7 +41,7 @@ function Header() {
             <a href="#projetos" onClick={closeMenu}>Projetos</a>
             <Link to="/membros" onClick={closeMenu}>Membros</Link>
             <a href="#sobre" onClick={closeMenu}>Sobre Nós</a>
-            <a href="#contato" onClick={closeMenu}>Contato</a>
+            <Link to="/contato" onClick={closeMenu}>Contato</Link>
           </nav>
         </div>
       </header>
